@@ -74,6 +74,8 @@ ai-communication-workshop/
 ```bash
 git clone https://github.com/chadura/ai-communication-workshop.git
 cd ai-communication-workshop
+
+bash scripts/setup_local.sh
 ```
 
 **2. Start services with Docker Compose (recommended)::**
