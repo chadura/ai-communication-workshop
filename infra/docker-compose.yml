@@ -1,0 +1,16 @@
+version: '3.9'
+services:
+  sentiment-api:
+  build: ./demos/sentiment-api
+  ports:
+  - "8000:8000"
+
+  environment:
+    - MODEL_PATH=/app/model.joblib
+
+streamlit-dashboard:
+  build: ./demos/streamlit-dashboard
+  ports:
+  - "8501:8501"
+  depends_on:
+  - sentiment-api
