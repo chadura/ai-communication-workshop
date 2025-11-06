@@ -1,0 +1,1 @@
+{"class_names": ["negative", "neutral", "positive"], "max_words": 8000, "maxlen": 40, "embed_dim": 64}

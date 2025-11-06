@@ -14,3 +14,15 @@ streamlit-dashboard:
   - "8501:8501"
   depends_on:
   - sentiment-api
+
+services:
+  sentiment-api-keras:
+    build: ./demos/sentiment-api-keras
+    ports:
+      - "8001:8000"
+  streamlit-dashboard-2:
+    build: ./demos/streamlit-dashboard
+    ports:
+      - "8501:8501"
+    depends_on:
+      - sentiment-api-keras
