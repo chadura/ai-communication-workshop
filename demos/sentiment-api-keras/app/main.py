@@ -4,10 +4,33 @@ from pydantic import BaseModel
 from .model_loader import KerasModelManager
 import logging
 
+from fastapi.middleware.cors import CORSMiddleware
+
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("sentiment-api-keras")
 
 app = FastAPI(title="Sentiment API (Keras) - Workshop Demo")
+
+
+origins = [
+    "http://localhost:5173",   # Vite dev server
+    "http://localhost:8501",   # Streamlit (if used)
+    "http://localhost:3000",
+    "http://127.0.0.1:5173",
+    "http://127.0.0.1:8501",
+    "http://127.0.0.1:3000",
+    # add any host your frontend will run on
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,    # OR ["*"] for workshop/dev only
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 mgr = KerasModelManager()
 
