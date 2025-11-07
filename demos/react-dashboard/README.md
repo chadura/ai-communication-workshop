@@ -26,3 +26,5 @@ Upload a CSV file with a text column. The dashboard will parse and call the API 
 This dashboard is intentionally minimal for workshop use.
 
 For production, add robust error handling, authentication, rate-limiting and better visualizations (Chart.js, Recharts, etc.).
+
+

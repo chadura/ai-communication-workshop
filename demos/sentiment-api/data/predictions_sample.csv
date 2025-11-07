@@ -1,0 +1,52 @@
+text,prediction,proba_negative,proba_neutral,proba_positive
+Your order has been shipped and will arrive tomorrow.,positive,0.19031651678336275,0.34591333826743526,0.4637701449492027
+Flash Sale! Get 40% off all electronics today only!,neutral,0.23614223481113653,0.4325666445563898,0.33129112063247346
+We couldn’t process your payment. Please update your card details.,negative,0.6030086970317401,0.35688439376899467,0.04010690919926559
+Reminder: Your appointment with Dr. Rao is scheduled for 3 PM.,neutral,0.07764681999184483,0.8401894456280613,0.08216373438009344
+Your package delivery failed. Please confirm your address.,negative,0.8922115902838845,0.08800768382488043,0.01978072589123559
+Thank you for your purchase! We hope you enjoy your new product.,positive,0.06849412659158453,0.06176260905448306,0.8697432643539328
+Payment successful. Your transaction ID is TXN39284.,neutral,0.33068880145023366,0.40069973666558584,0.2686114618841811
+We are currently experiencing high traffic. Please try again later.,negative,0.8032214154345274,0.09053522676746986,0.10624335779800212
+Your OTP for login is 934512. Do not share it with anyone.,positive,0.2826086956521739,0.2608695652173913,0.4565217391304348
+Your subscription expires in 3 days. Renew now to continue services.,negative,0.7630652613298562,0.08467728716115192,0.1522574515089932
+Great news! You’ve been upgraded to our Premium Plan.,positive,0.03194603194863015,0.028582531618131294,0.9394714364332368
+Limited time offer: Buy 1 Get 1 Free on selected items.,negative,0.4667050873656531,0.10439178281532635,0.4289031298190203
+Error 502: Service temporarily unavailable.,negative,0.5699575625274325,0.12848571061402864,0.3015567268585374
+Your flight AI204 is delayed by 45 minutes due to weather.,positive,0.2826086956521739,0.2608695652173913,0.4565217391304348
+You’ve earned 500 reward points. Redeem them before 31 Dec.,positive,0.03194603194863015,0.028582531618131294,0.9394714364332368
+Your electricity bill for November is ₹1345. Pay before 10th to avoid late fees.,neutral,0.23614223481113653,0.4325666445563898,0.33129112063247346
+Congratulations! You’ve won a voucher worth ₹500.,positive,0.036632904579683934,0.033032668298352844,0.9303344271219628
+Security alert: Login detected from a new device in Chennai.,positive,0.30131071792115127,0.2759713151784794,0.4227179669003696
+We couldn’t reach you for delivery. Please reschedule at your convenience.,negative,0.6640116026815264,0.20114778091254945,0.13484061640592368
+Your feedback helps us improve! Rate your recent experience.,positive,0.3046904793728266,0.1384489673302139,0.5568605532969587
+Refund processed. ₹2499 will reflect in your account within 3–5 business days.,negative,0.5699575625274325,0.12848571061402864,0.3015567268585374
+We noticed unusual login attempts on your account.,positive,0.2826086956521739,0.2608695652173913,0.4565217391304348
+Update available! Install the latest app version for better performance.,neutral,0.05265536070197661,0.7537830123245164,0.1935616269735077
+Service maintenance scheduled tonight from 12 AM to 2 AM.,neutral,0.16225366357643883,0.44236076323634543,0.39538557318721557
+You have successfully unsubscribed from marketing messages.,positive,0.09677277160347583,0.08863444764638786,0.8145927807501365
+Subscription renewed successfully. Thank you for staying with us!,positive,0.03724810675731206,0.01679370458571672,0.9459581886569721
+Warning: Your storage limit has reached 95%. Upgrade your plan.,positive,0.2826086956521739,0.2608695652173913,0.4565217391304348
+Payment failed. Please retry or use a different payment method.,negative,0.9412291218382458,0.030947589810750863,0.02782328835100177
+Your new policy document is ready for download.,positive,0.30131071792115127,0.2759713151784794,0.4227179669003696
+Congratulations! You’re now part of our loyalty program.,positive,0.10846819412369645,0.09857419565921786,0.7929576102170849
+Urgent: Suspicious transaction detected. Verify immediately.,neutral,0.23614223481113653,0.4325666445563898,0.33129112063247346
+Order #24568 has been cancelled as per your request.,positive,0.30955788680081,0.18754757218851104,0.5028945410106791
+Delivery partner has picked up your package.,neutral,0.38199259631244337,0.4628651834574888,0.15514222023006874
+Your return request has been approved and processed.,positive,0.14622137739486146,0.042933503082998814,0.8108451195221364
+Your message could not be delivered. Please check the recipient’s number.,negative,0.5699575625274325,0.12848571061402864,0.3015567268585374
+Special offer: Get 3 months of premium for just ₹199.,positive,0.28033146154569566,0.12639041715473084,0.5932781212995721
+Reminder: EMI payment due tomorrow. Pay to avoid penalties.,neutral,0.33068880145023366,0.40069973666558584,0.2686114618841811
+We’re sorry for the inconvenience caused during your recent experience.,negative,0.7382614265204914,0.11182006991913478,0.1499185035603733
+Exclusive access unlocked! Enjoy ad-free streaming for 30 days.,positive,0.0012643406467114382,0.0010710954047861718,0.9976645639485006
+Server downtime expected for maintenance. Sorry for any disruption.,negative,0.4970189890977316,0.3011220476409574,0.20185896326131128
+Your parcel is out for delivery. Expect it by 6 PM.,neutral,0.38199259631244337,0.4628651834574888,0.15514222023006874
+Verification successful! Welcome aboard.,positive,0.2826086956521739,0.2608695652173913,0.4565217391304348
+Offer expired. Stay tuned for upcoming deals.,negative,0.9463615431236538,0.02646006315042054,0.02717839372592387
+Unable to deliver package due to incomplete address details.,negative,0.5829531343592592,0.26283061282907294,0.15421625281166612
+System alert: Password will expire in 5 days.,positive,0.21178527644351552,0.1939747171252284,0.5942400064312559
+You have earned a cashback of ₹120 on your latest purchase.,positive,0.21178527644351552,0.1939747171252284,0.5942400064312559
+Thank you for renewing your membership with us!,positive,0.018879159702172847,0.016760149973815405,0.9643606903240122
+Your ride is arriving in 2 minutes. Please be ready.,positive,0.2826086956521739,0.2608695652173913,0.4565217391304348
+Unexpected error occurred while fetching your account details.,negative,0.9499524877628984,0.026354036696533984,0.023693475540567683
+Reminder: Feedback survey closes in 24 hours.,positive,0.15449210404105024,0.28080000804991273,0.5647078879090376
+Congratulations! You have successfully completed your training module.,positive,0.02500254185367034,0.022545323149887726,0.9524521349964424
